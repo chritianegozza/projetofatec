@@ -34,6 +34,6 @@ Os agradecimentos vão para essas pessoas maravilhosas.
          <td align="center"><a href="https://github.com/EstevaoV"><img src="https://avatars.githubusercontent.com/u/116641927?v=4" width="100px;" alt=""/><br /><sub><b>Estevão Valeriano Mendes</b></sub></a><br /><a href="https://github.com/EstevaoV">👩🏻‍💻</a></td> 
     </tr>
 </table>
-***********************************************************************************
+*******************************************************************
 
 ### Feito com 💛 by Programação de Sitios da internet | FATEC RUBENS LARA - 2022 | 💗 Equipe Christiane e Estevão | 👋 Participe da nossa comunidade!
