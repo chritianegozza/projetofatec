@@ -31,7 +31,7 @@ Os agradecimentos vão para essas pessoas maravilhosas.
 <table>
   <tr>
          <td align="center"><a href="https://github.com/chritianegozza"><img src="https://avatars.githubusercontent.com/u/72118415?v=4" width="100px;" alt=""/><br /><sub><b>Christiane Gozza</b></sub></a><br /><a href="https://github.com/chritianegozza">👩🏻‍💻</a></td>
-         <td align="center"><a href="https://github.com/EstevaoV"><img src="https://avatars.githubusercontent.com/u/116641927?v=4" width="100px;" alt=""/><br /><sub><b>Estevão Valeriano Mendes</b></sub></a><br /><a href="https://github.com/EstevaoV">👩🏻‍💻</a></td> 
+         <td align="center"><a href="https://github.com/EstevaoV"><img src="https://avatars.githubusercontent.com/u/116641927?v=4" width="100px;" alt=""/><br /><sub><b>Estevão Mendes</b></sub></a><br /><a href="https://github.com/EstevaoV">👩🏻‍💻</a></td> 
     </tr>
 </table>
 *******************************************************************
