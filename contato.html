@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/comunidade.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
 </head>
 <body>
     <header>
@@ -43,33 +45,63 @@
             </div>
         </div>  
     </header>
-    
-    <section class="quem-somos">
-        <h3 class="quem-somos__titulo">Quem somos</h3>
-        <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa desse site, também somos os produtores
-        e gostariamos de aceitar novos membros para a nossa comunidade, somos apaixonado pela cultura geek.</p>
-        <div class="pessoas">
-            <div class="pessoa">
-                <div class="pessoa__imagem pessoa__imagem--christiane"></div>
-                <span class="pessoa__nome">Christiane Gozza</span>
-                <span class="pessoa__funcao">Produtora de Conteúdo</span>
+    <main>
+        <div class="container-main">
+            <div class="content">
+                <h1>Entre em contanto conosco</h1>
+            <br>  
+            <form id="form">
+            
+                <input type="text" placeholder="Nome" required id="nome">
+                <br>
+                
+                <input type="email" required placeholder="email" id="email">
+                <br> 
+               
+                <input type="tel" required placeholder="Telefone">
+                <br> 
+                
+                <textarea placeholder="Mensagem" name="" id="" cols="48" rows="10" required></textarea>   
+                <input type="submit" value="Enviar" />
+            </form>
+
             </div>
-            <div class="pessoa">
-                <div class="pessoa__imagem pessoa__imagem--estevao"></div>
-                <span class="pessoa__nome">Estevão Mendes</span>
-                <span class="pessoa__funcao">Desenvolvedor Web</span>
-            </div>
+            <img src="/assets/img/controle.jpg" alt="" width="">
+        </div>  
+
+        <div>
+            <h2 class="redes-sociais">Redes sociais </h2>
+            <ul class="social-media-list">
+                    
+                <li>
+                    <a href="#" class="fa fa-facebook"></a>
+
+                </li>
+                
+                <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                
+                <li>
+                    <a href="#" class="fa fa-youtube"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </li>
+
         </div>
-    </section> 
-    <section>
-        <div class="contato">Contato</div>
-    </section>
+        
+    </main>
+
+
+    
     <footer>
         <div class="rodape">
         <p class="copyright">&copy; FATEC RUBENS LARA. - 2022</p>
         <p>Desenvolvido por <a href="https://github.com/chritianegozza" target="_blank">Christiane Gozza</a></p>
-        <p>Desenvolvido por <a href="https://github.com/EstevaoV " target="_blank">Estevão Mendes </a></p>
+        <p>Desenvolvido por <a href="https://github.com/EstevaoV" target="_blank">Estevão Mendes</a></p>
         </div>        
     </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
