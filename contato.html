@@ -50,19 +50,21 @@
             <div class="content">
                 <h1>Entre em contanto conosco</h1>
             <br>  
-            <form id="form">
+            <!-- adicionado um api no formulario para receber as informações do formulario -->
+            <form id="formulario" action="https://formspree.io/f/mgeqqkrw"
+            method="POST">
             
-                <input type="text" placeholder="Nome" required id="nome">
+                <input type="text" name="name" placeholder="Nome" required id="nome">
                 <br>
                 
-                <input type="email" required placeholder="email" id="email">
+                <input type="email" name="email" required placeholder="email" id="email">
                 <br> 
                
-                <input type="tel" required placeholder="Telefone">
+                <input type="tel" name="phone" required placeholder="Telefone" id="telefone">
                 <br> 
                 
-                <textarea placeholder="Mensagem" name="" id="" cols="48" rows="10" required></textarea>   
-                <input type="submit" value="Enviar" />
+                <textarea placeholder="Mensagem" name="mensagem" id="mensagem" cols="48" rows="10" required></textarea>   
+                <input type="submit" value="Enviar" onclick="Enviar();"/>
             </form>
 
             </div>
@@ -102,6 +104,7 @@
         <p>Desenvolvido por <a href="https://github.com/EstevaoV" target="_blank">Estevão Mendes</a></p>
         </div>        
     </footer>
-    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="/assets/js/contato.js"></script>
 </body>
 </html>
