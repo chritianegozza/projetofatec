@@ -1,0 +1,53 @@
+html{
+  font-family: sans-serif;
+}
+
+
+body{
+  background-color: #800080;
+  color: whitesmoke;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 700;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-image: url('https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2013/11/N%C3%BAmeros-plano-de-aula_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  
+} 
+
+.lastResult {
+  color: White;
+  padding: 3px;
+}
+  
+  
+.form{
+    color: white;
+  align-items: center;
+  width: 50%;
+  max-width: 600px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.envioPalpite{
+    border-radius: 2px solid;
+    background-color: rgb(72, 72, 241);
+    color: white;
+}
+
+.envioPalpite:hover{
+    cursor: pointer;
+    background-color: #800080;
+}
+@media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+}
