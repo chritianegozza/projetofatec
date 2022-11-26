@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/jogos/supertrunfo/supertrunfo.css">
+    <script src="/jogos/supertrunfo/supertrunfo.js"></script>
+    <title>Super Trunfo</title>
+</head>
+<body>
+    <main class="container">
+         <h1 class="page-title">Super Trunfo</h1>
+         
+         <!-- botão para fazer o sorteio das cartas -->
+         <button onclick="sortearCarta()" id="btnSortear">Sortear Carta</button>
+
+         <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            </div>
+                <div id="resultado"></div>
+                <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima rodada</button>
+        </form>
+    </main>
+</body>
+</html>
