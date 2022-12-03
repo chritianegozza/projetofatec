@@ -19,7 +19,7 @@
 
 Esse programa foi elaborado de acordo com os critérios do Professor Felipe, onde o mesmo 
 aplicou alguns requisitos para o projeto, nosso projeto é um site de jogos usando a linguagens javascript e os conceitos aplicado em sala de aula, um dos pedidos foi o uso do DOM.
-Foi usado um API para o formulário chamado Formspree, ele é um back-end de formulário, API e serviço de e-mail para formulários HTML e JavaScript. É a maneira mais simples de incorporar formulários personalizados de contato, formulários de pedido [seja aqui.](https://formspree.io/)
+Foi usado um API para o formulário chamado Formspree, ele é um back-end de formulário, API e serviço de e-mail para formulários HTML e JavaScript. É a maneira mais simples de incorporar formulários personalizados de contato, formulários de pedido [aqui.](https://formspree.io/)
 *******************************************************************
 🚀 Requisitos 
 
