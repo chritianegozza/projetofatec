@@ -1,3 +1,4 @@
+// Sorteio o numero aleatorio com a biblioteca math random
 var numeroAleatorio= Math.floor(Math.random() * 100) + 1;
 
 var palpites = document.querySelector('.palpites');
@@ -10,6 +11,8 @@ var campoPalpite = document.querySelector('.campoPalpite');
 var contagemPalpites = 1;
 var botaoReinicio;
 campoPalpite.focus();
+
+//função para confirmar o palpite se bate com o numero 
 function conferirPalpite() {
   var palpiteUsuario = Number(campoPalpite.value);
   if (contagemPalpites === 1) {
@@ -42,6 +45,8 @@ function conferirPalpite() {
 }
 
 envioPalpite.addEventListener('click', conferirPalpite);
+
+//função fim de jogo 
 function configFimDeJogo() {
   campoPalpite.disabled = true;
   envioPalpite.disabled = true;
@@ -51,6 +56,7 @@ function configFimDeJogo() {
   botaoReinicio.addEventListener('click', reiniciarJogo);
 }
 
+//funçaõ para reiniciar o jogo novamente 
 function reiniciarJogo() {
   contagemPalpites = 1;
 

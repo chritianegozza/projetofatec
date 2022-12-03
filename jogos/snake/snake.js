@@ -21,6 +21,7 @@ function criarBG(){
     context.fillRect(0, 0, 16*box, 16*box); 
 }
 
+// Para criar a Cobrinha 
 function criarCobrinha (){
     for(i = 0; i < snake.length; i++){
         context.fillStyle = "green";
@@ -36,6 +37,7 @@ function drawFood (){
 //quando um evento acontece, detecta e chama uma função
 document.addEventListener('keydown', update);
 
+// Direção 
 function update(event){
     if(event.keyCode == 37 && direction != 'right') direction = 'left';
     if(event.keyCode == 38 && direction != 'down') direction = 'up';
@@ -43,6 +45,7 @@ function update(event){
     if(event.keyCode == 40 && direction != 'up') direction = 'down';
 }
 
+// Para iniciar o jogo 
 function iniciarJogo(){    
 
     if(snake[0].x > 15*box && direction == "right") snake[0].x = 0;
@@ -69,6 +72,7 @@ function iniciarJogo(){
     if (direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
+
     if(snakeX != food.x || snakeY != food.y){
         snake.pop(); //pop tira o último elemento da lista
     }else{
@@ -85,4 +89,5 @@ function iniciarJogo(){
     snake.unshift(newHead); 
 }
 
+//Para iniciar o jogo
 let jogo = setInterval(iniciarJogo, 100);
