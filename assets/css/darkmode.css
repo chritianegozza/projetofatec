@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+     color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.btn-mode{
+    padding: 15px;
+    margin: 15px 20px;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    
+}
+
+.btn-mode:hover {
+    background-color: #008CBA;
+    color: white;
+  }

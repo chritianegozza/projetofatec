@@ -188,6 +188,15 @@ main .container-main img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} 
+
+.foto{
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    min-height: 200px;
+    /* clear: both; */
+    /* margin-top: 20px; */  
 }
 
 .jogo__botao{

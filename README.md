@@ -14,13 +14,16 @@
 
 ![image](https://user-images.githubusercontent.com/72118415/202830567-23fa74d6-72ee-41bc-8d16-1e6ed9a2f259.png)
 
+![image](https://user-images.githubusercontent.com/72118415/205778916-0c1e8aa6-4d96-4cb8-8498-7fe54b7b2cce.png)
+
+
 *******************************************************************
 🌱 Programa
 
 Esse programa foi elaborado de acordo com os critérios do Professor Felipe, onde o mesmo 
 aplicou alguns requisitos para o projeto, nosso projeto é um site de jogos usando a linguagens javascript e os conceitos aplicado em sala de aula, um dos pedidos foi o uso do DOM.
-Foi usado um API para o formulário chamado Formspree, ele é um back-end de formulário, API e serviço de e-mail para formulários HTML e JavaScript. É a maneira mais simples de incorporar formulários personalizados de contato, formulários de pedido [aqui.](https://formspree.io/)
-Caso você queria conhece o meu projeto acesse [aqui.](https://powergames.netlify.app/)
+Foi usado um API para o formulário chamado Formspree, ele é um back-end de formulário, API e serviço de e-mail para formulários HTML e JavaScript. É a maneira mais simples de incorporar formulários personalizados de contato, formulários de pedido [aqui.](https://formspree.io/)<br>.
+Caso você queria conhece o meu projeto [acesse.](https://powergames.netlify.app/)
 *******************************************************************
 🚀 Requisitos 
 
@@ -44,6 +47,12 @@ Caso você queria conhece o meu projeto acesse [aqui.](https://powergames.netlif
 
 ✅ API
 *******************************************************************
+☕ Funcionalidade Extra:
+
+💡 Dark/Light Mode
+
+*******************************************************************
+
 ## ✨ Contribuidores 
 
 Os agradecimentos vão para essas pessoas maravilhosas.

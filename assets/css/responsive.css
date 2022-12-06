@@ -1,3 +1,9 @@
+@media (max-width: 600px){
+    banner__titulo{
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 1000px){
     main .container-main div{
         margin: auto;
@@ -95,3 +101,4 @@
 
   
 }
+
